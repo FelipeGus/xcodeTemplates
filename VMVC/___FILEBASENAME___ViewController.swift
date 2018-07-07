@@ -5,28 +5,28 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
-    
+final class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
+
     var viewModel: ___VARIABLE_productName___ViewModel!
     var disposeBag: DisposeBag = DisposeBag()
-    
+
     // MARK: - Init
-    
+
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
     }
-    
+
     required init?(coder aDecoder: NSCoder) {
         fatalError()
     }
-    
+
     // MARK: - LifeCycle
-    
+
     func viewDidLoad() {
         super.viewDidLoad()
         setupInitialState()
     }
-    
+
     // MARK: - View Configuration Methods
 
     func setupInitialState() {
