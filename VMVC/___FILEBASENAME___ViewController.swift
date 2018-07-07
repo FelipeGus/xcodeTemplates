@@ -17,7 +17,7 @@ final class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     }
 
     required init?(coder aDecoder: NSCoder) {
-        fatalError()
+        super.init(coder: aDecoder: aDecoder)
     }
 
     // MARK: - LifeCycle
