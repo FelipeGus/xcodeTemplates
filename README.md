@@ -1,7 +1,7 @@
 # Xcode File Templates
 A repository to organize the templates I daily use when working with Xcode.
 
-Feel free to use/modify any of them 😄! 
+Feel free to fork and use/modify any of them 😄! 
 
 If you see any improvement/error just submit a PR. 
 
@@ -20,7 +20,9 @@ with reactive communication between them.
 - [ ] Coordinator - A template for the creation of coordinators (Flow controllers). 
 
 ## Requirements
-  - You just need Xcode really :)
+  - You just need Xcode really :).
+  
+  * Some templates use third party Libraries, like the RxSwift for the VMVC template, I'm planning on reducing dependencies in future, but for now, just remove them if you don't need it.  
   
 ## How to use
   To use these templates you just have to put their folders where Xcode will look for them. 
