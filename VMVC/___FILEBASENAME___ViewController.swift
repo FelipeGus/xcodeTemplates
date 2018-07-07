@@ -22,7 +22,7 @@ final class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
 
     // MARK: - LifeCycle
 
-    func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
         setupInitialState()
     }
