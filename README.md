@@ -10,7 +10,7 @@ If you see any improvement/error just submit a PR.
 with reactive communication between them.
 
 ## Future Planned Templates.
-- [ ] View Controller Presenter - A template like the VMVC but with a presenter in place of the viewModel
+- [x] View Controller Presenter - A template like the VMVC but with a presenter in place of the viewModel
  with interface for the communication between the two.
 
 - [ ] VIPER - A simple template for the VIPER architecture, with separation of the files in folders.
