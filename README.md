@@ -52,6 +52,9 @@ with reactive communication between them.
   https://medium.com/@dasdom/creating-a-smart-xcode-file-template-b5f2d7c8594b
 
   https://medium.com/@dima.cheverda/xcode-9-templates-596e2ed85609
+
+  http://jeanetienne.net/2017/09/10/advanced-xcode-template.html
+
 ## Author
 FelipeGus, felipegusfigueiredo@gmail.com
 
