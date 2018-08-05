@@ -8,11 +8,12 @@ If you see any improvement/error just submit a PR.
 ## Current Templates.
 * VMVC - A small template for the creation of a View Controller and a View Model
 with reactive communication between them.
+* VP - A template that creates two files, one corresponding to the presenter and the other to the view. 
 
 ## Future Planned Templates.
 - [x] View Controller Presenter - A template like the VMVC but with a presenter in place of the viewModel
  with interface for the communication between the two.
-
+ 
 - [ ] VIPER - A simple template for the VIPER architecture, with separation of the files in folders.
 
 - [ ] DataSource/Delegate Objects - Objects that serve as dataSources/delegates of Table and Collection Views.
