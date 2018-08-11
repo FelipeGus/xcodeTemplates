@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>A template for an object that manages a table view.</string>
+	<key>Summary</key>
+	<string>An object that implements UITableViewDataSource and UITableViewDelegate.</string>
+	<key>SortOrder</key>
+	<string>30</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___TableViewManager.swift</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Description</key>
+			<string>The name of the table view manager.</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Name</key>
+			<string>Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>
