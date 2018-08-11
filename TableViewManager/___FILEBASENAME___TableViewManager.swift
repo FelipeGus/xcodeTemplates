@@ -3,12 +3,14 @@
 
 import UIKit
 
-final class ___FILEBASENAMEASIDENTIFIER___ {
+// MARK: - Class
+
+final class ___FILEBASENAMEASIDENTIFIER___: NSObject {
     
-    // MARK: - Business Properties
+    // MARK: Business Properties
     
     
-    // MARK: - Table Configuration
+    // MARK: Table Configuration
     
     weak var tableView: UITableView?
     
@@ -18,22 +20,23 @@ final class ___FILEBASENAMEASIDENTIFIER___ {
         //Table View Default Configuration
         tableView.dataSource = self
         tableView.delegate = self
-        
         tableView.backgroundColor = .clear
         tableView.tableFooterView = UIView()
         tableView.separatorStyle = .none
         tableView.estimatedRowHeight = 100
         tableView.rowHeight = UITableViewAutomaticDimension
-
         //Table View Custom Configuration
+        
     }
 
-    // MARK: - Table Auxiliary Functions
+    // MARK: Table Auxiliary Functions
     
-    func numberOfRowsInSection(section: Int) -> Int {
+    func numberOfRowsInSection(_ section: Int) -> Int {
         return 0
     }
 }
+
+// MARK: - UITableViewDataSource
 
 extension ___FILEBASENAMEASIDENTIFIER___: UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -49,6 +52,8 @@ extension ___FILEBASENAMEASIDENTIFIER___: UITableViewDataSource {
         return UITableViewCell()
     }
 }
+
+// MARK: - UITableViewDelegate
 
 extension ___FILEBASENAMEASIDENTIFIER___: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
