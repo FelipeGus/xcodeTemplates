@@ -9,6 +9,7 @@ If you see any improvement/error just submit a PR.
 * VMVC - A small template for the creation of a View Controller and a View Model
 with reactive communication between them.
 * VP - A template that creates two files, one corresponding to the presenter and the other to the view. 
+* Coordinator - A template that lays the foundation of a coordinator class. 
 
 ## Future Planned Templates.
 - [x] View Controller Presenter - A template like the VMVC but with a presenter in place of the viewModel
@@ -18,7 +19,7 @@ with reactive communication between them.
 
 - [ ] DataSource/Delegate Objects - Objects that serve as dataSources/delegates of Table and Collection Views.
 
-- [ ] Coordinator - A template for the creation of coordinators (Flow controllers).
+- [x] Coordinator - A template for the creation of coordinators (Flow controllers).
 
 ## Requirements
   - You just need Xcode really :).
