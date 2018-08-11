@@ -8,18 +8,24 @@ If you see any improvement/error just submit a PR.
 ## Current Templates.
 * VMVC - A small template for the creation of a View Controller and a View Model
 with reactive communication between them.
-* VP - A template that creates two files, one corresponding to the presenter and the other to the view. 
-* Coordinator - A template that lays the foundation of a coordinator class. 
+* VP - A template that creates two files, one corresponding to the presenter and the other to the view.
+* Coordinator - A template that lays the foundation of a coordinator class.
+* Managers - Templates for objects that configure and control tables and collections views.
 
 ## Future Planned Templates.
 - [x] View Controller Presenter - A template like the VMVC but with a presenter in place of the viewModel
  with interface for the communication between the two.
- 
-- [ ] VIPER - A simple template for the VIPER architecture, with separation of the files in folders.
 
-- [ ] DataSource/Delegate Objects - Objects that serve as dataSources/delegates of Table and Collection Views.
+- [x] DataSource/Delegate Objects - Objects that serve as dataSources/delegates of Table and Collection Views.
 
 - [x] Coordinator - A template for the creation of coordinators (Flow controllers).
+
+
+* VIPER - According to my current knowledge, File Templates in xCode do not support the separation/creation of groups for these files, if anyone knows any different do tell me how it could be done 😀 . The option I found is to use and external tool to generate these files.
+
+    They even have a version of the viper template already made.
+
+    -  [Generamba](https://github.com/rambler-digital-solutions/Generamba)
 
 ## Requirements
   - You just need Xcode really :).
