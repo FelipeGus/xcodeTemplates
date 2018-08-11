@@ -14,7 +14,7 @@ final class ___FILEBASENAMEASIDENTIFIER___: NSObject {
     
     weak var tableView: UITableView?
     
-    func configureTableView(tableView: UITableView) {
+    func configureTableView(_ tableView: UITableView) {
         self.tableView = tableView
         
         //Table View Default Configuration
