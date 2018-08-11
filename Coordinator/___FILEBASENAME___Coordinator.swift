@@ -6,7 +6,7 @@ import UIKit
 
 // MARK: - Presenter Input
 
-final class ___FILEBASENAMEASIDENTIFIER___Coordinator: Coordinator {
+final class ___FILEBASENAMEASIDENTIFIER___: Coordinator {
     
     // MARK: - Properties
     var childCoordinators: [Coordinator] = []
